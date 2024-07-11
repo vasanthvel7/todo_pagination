@@ -1,0 +1,57 @@
+.itemSec {
+    height: 30px;
+    width: "100%";
+    border: 0.5px solid gray;
+    margin: 20px;
+}
+.pageSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.pageSec div {
+    /* background-color: red; */
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.pageSec .active {
+    background-color: black;
+    color: white;
+}
+
+.pageperSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+}
+.pageSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pageperSec select {
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+}
+
+.searchSec {
+    display: flex;
+    flex-direction: row;
+}
+.searchSec input {
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    /* width: 100px; */
+}
+.searchSec button {
+    border-radius: 5px;
+}
