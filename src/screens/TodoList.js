@@ -62,7 +62,9 @@ console.log(Pages)
   const SearchData =useCallback(lodash.debounce((search_key)=>getTodoData(1,Pages.size,search_key),2000),[])
   
   return (
-    <div>
+    <div style={{
+      width:"100%"
+    }}>
       <div className={classes.pageperSec}>
         <div className={classes.pageSec}>
         <p>Count Per Page:</p>
